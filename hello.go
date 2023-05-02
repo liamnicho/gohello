@@ -4,5 +4,5 @@ import "fmt"
 
 func main() {
 	var firstName = "Liam"
-	fmt.Println(firstName)
+	fmt.Println("Hello " + firstName)
 }
