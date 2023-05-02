@@ -3,12 +3,17 @@ package main
 import "fmt"
 
 func main() {
-
-	var firstName = "Liam"
-	fmt.Println(firstName)
-	if firstName == "Liam" {
-		fmt.Println("is awesome")
-	} else {
-		fmt.Println("wrong person")
+	totalname := 10
+	namenumber := 1
+	for namenumber <= totalname {
+		fmt.Println("Liam")
+		namenumber++
+	}
+	{
+		sum := 1
+		for i := 1; i <= 10; i++ {
+			sum *= i
+		}
+		fmt.Println(sum)
 	}
 }
